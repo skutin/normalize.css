@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>HTML5 native elements</title>
+	<meta name="description" content="Native HTML5 elements behavior with normalize.css">
+	<meta name="keywords" content="html,css,normalize">
+	<meta name="author" content="Alex Skutin <mail@skutin.pro> [https://skutin.pro/]">
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, shrink-to-fit=no, minimal-ui">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="referrer" content="origin-when-crossorigin">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="msthemecompatible" content="no">
+	<meta http-equiv="imagetoolbar" content="no">
+
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="no">
+
+	<link rel="stylesheet" href="./normalize.css">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>HTML5 native elements</h1>
+			<p>This document represents probably all HTML5-compatible tags with their native behavior.</p>
+			<p>
+				For example, this is a <code>&lt;header&gt;</code> element - a group of introductory or navigational
+				aids. You can use it in any <code>&lt;section&gt;</code> on your site, as many times as you want. This
+				one is inside a <code>&lt;main&gt;</code> root element.
+			</p>
+		</header>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Text-level semantics</h2>
+			</header>
+
+			<code>&lt;a&gt;</code> <a href="#" title="Link">Link</a><br>
+			<code>&lt;abbr&gt;</code> <abbr title="HyperText Markup Language">HTML</abbr><br>
+			<code>&lt;b&gt;</code> <b>Bold text</b>.<br>
+			<code>&lt;bdo&gt;</code> <bdo dir="rtl">Reversed text</bdo><br>
+			<code>&lt;cite&gt;</code> <cite>Citation</cite><br>
+			<code>&lt;code&gt;</code> <code> if (true) { alert( array['key'] ); }</code><br>
+			<code>&lt;dfn&gt;</code> <dfn>Term</dfn><br>
+			<code>&lt;em&gt;</code> <em>Important!</em><br>
+			<code>&lt;kbd&gt;</code> <kbd>User input</kbd><br>
+			<code>&lt;mark&gt;</code> <mark>Marked text</mark><br>
+			<code>&lt;q&gt;</code> <q>Quote text, and also <q>inner quote</q></q><br>
+			<code>&lt;s&gt;</code> <s>Text, no longer relevant</s><br>
+			<code>&lt;samp&gt;</code> <samp>Result of script</samp><br>
+			<code>&lt;small&gt;</code> <small>Small text</small><br>
+			<code>&lt;span&gt;</code> <span>Sample span</span><br>
+			<code>&lt;strong&gt;</code> <strong>Strong text</strong><br>
+			<code>&lt;var&gt;</code> <var>Variable</var><br>
+			<code>&lt;wbr&gt;</code> Veryveryveryvery<wbr>veryveryvery<wbr>long-word<br>
+			<code>&lt;sup&gt;</code>,<code>&lt;sub&gt;</code> Different combinations of these elements: like this <sup>text<sup>1</sup><sub>2</sub></sup>, or this <sub>text<sub>1</sub><sup>2</sup></sub><br>
+			<code>&lt;del&gt;</code> <del datetime="2009-10-10T23:38-07:00" cite="google.com">Deleted entity</del><br>
+			<code>&lt;ins&gt;</code> <ins datetime="2009-10-10T23:38-07:00" cite="google.com">Addition</ins><br>
+			<code>&lt;output&gt;</code> <output>Result of calculation</output><br>
+			<code>&lt;time&gt;</code> <time datetime="2012-12-21T12:12:21">December, 21</time>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Headers</h2>
+			</header>
+
+			<h1>Header 1</h1>
+			<h2>Header 2</h2>
+			<h3>Header 3</h3>
+			<h4>Header 4</h4>
+			<h5>Header 5</h5>
+			<h6>Header 6</h6>
+
+			<hgroup>
+				<h3>Here are <code>&lt;h3&gt;</code> and <code>&lt;h4&gt;</code> elements inside a
+					<code>&lt;hgroup&gt;</code> element.</h3>
+				<h4>Header 4</h4>
+			</hgroup>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Blocks</h2>
+			</header>
+
+			<article>
+				<h3>This is an <code>&lt;article&gt;</code> - block for article text.</h3>
+				<p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea.</p>
+				<p>A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+			</article>
+
+			<address>
+				This is a <code>&lt;address&gt;</code> - block for contact info.
+			</address>
+
+			<aside>
+				This is a <code>&lt;aside&gt;</code> - block for sidebars.
+			</aside>
+
+			<blockquote>
+				This is a <code>&lt;blockquote&gt;</code> - quoted section.
+			</blockquote>
+
+			<div>
+				This is a <code>&lt;div&gt;</code> - universal block.
+			</div>
+
+			<pre>
+			======
+			Preformatted text!
+			======
+			</pre>
+
+			<figure>
+				<p><img src="./dummy.png" alt=""></p>
+				<figcaption><code>&lt;figcaption&gt;</code> element inside of <code>&lt;figure&gt;</code>.
+					.</figcaption>
+			</figure>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Table</h2>
+			</header>
+
+			<table class="cars">
+				<caption>Table of cars</caption>
+
+				<col class="cars_brand">
+				<col class="cars_model">
+				<colgroup class="cars_options" span="3"></colgroup>
+				<colgroup>
+					<col class="cars_cost" span="2">
+					<col class="cars_note">
+				</colgroup>
+
+				<thead>
+					<tr>
+						<th rowspan="2">Brand</th>
+						<th rowspan="2">Model</th>
+						<th colspan="3">Options</th>
+						<th colspan="3">Other</th>
+					</tr>
+					<tr>
+						<th>ABS</th>
+						<th>EBD</th>
+						<th>Speed</th>
+						<th>Cost1</th>
+						<th>Cost2</th>
+						<th>Note</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td rowspan="2">Audi</td>
+						<td>A4</td>
+						<td>+</td>
+						<td>+</td>
+						<td>+</td>
+						<td>100</td>
+						<td>200</td>
+						<td>text</td>
+					</tr>
+					<tr>
+						<td>A6</td>
+						<td>+</td>
+						<td>+</td>
+						<td>+</td>
+						<td>100</td>
+						<td>200</td>
+						<td>text</td>
+					</tr>
+					<tr>
+						<td>BMW</td>
+						<td>X6</td>
+						<td>+</td>
+						<td>+</td>
+						<td>+</td>
+						<td>100</td>
+						<td>200</td>
+						<td>text</td>
+					</tr>
+					<tr>
+						<td>VW</td>
+						<td>Golf</td>
+						<td>+</td>
+						<td>+</td>
+						<td>+</td>
+						<td>100</td>
+						<td>200</td>
+						<td>text</td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<td>Footer</td>
+						<td>text</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Lists</h2>
+			</header>
+
+			<h3>Menu <code>&lt;menu&gt;</code></h3>
+			<menu>
+				<li>Menu item 1</li>
+				<li>Menu item 2</li>
+				<li>Menu item 3</li>
+				<li>Menu item 4</li>
+				<li>Menu item 5</li>
+			</menu>
+
+			<h3>Navigation <code>&lt;nav&gt;</code></h3>
+			<nav>
+				<a href="#" title="Nav link 1">Nav link 1</a>
+				<a href="#" title="Nav link 2">Nav link 2</a>
+				<a href="#" title="Nav link 3">Nav link 3</a>
+			</nav>
+
+			<h3>Definition list</h3>
+			<dl>
+				<dt>Term 1</dt>
+				<dd>Definition 1</dd>
+
+				<dt>Term 2</dt>
+				<dd>Definition 2</dd>
+			</dl>
+
+			<h3>Ordered list</h3>
+			<ol>
+				<li>Ordered list item</li>
+				<li>Ordered list item</li>
+				<li>
+					Ordered list item
+					<ol>
+						<li>
+							Ordered list item
+							<ol>
+								<li>Ordered list item</li>
+								<li>Ordered list item</li>
+							</ol>
+						</li>
+						<li>Ordered list item</li>
+						<li>Ordered list item</li>
+					</ol>
+				</li>
+				<li>Ordered list item</li>
+			</ol>
+
+			<h3>Unordered list</h3>
+			<ul>
+				<li>Unordered list item</li>
+				<li>Unordered list item</li>
+				<li>
+					Unordered list item
+					<ul>
+						<li>
+							Unordered list item
+							<ul>
+								<li>Unordered list item</li>
+								<li>Unordered list item</li>
+							</ul>
+						</li>
+						<li>Unordered list item</li>
+						<li>Unordered list item</li>
+					</ul>
+				</li>
+				<li>Unordered list item</li>
+			</ul>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Forms</h2>
+			</header>
+
+			<form action="./" method="post" id="form">
+				<fieldset>
+					<legend>Radio</legend>
+
+					<label for="radio1">radio1</label>
+					<input type="radio" name="radio" id="radio1" value="radio1">
+					<br>
+
+					<label for="radio2">radio2</label>
+					<input type="radio" name="radio" id="radio2" value="radio2">
+					<br>
+
+					<label for="radio3">radio3 (disabled)</label>
+					<input type="radio" name="radio" id="radio3" value="radio3" disabled>
+				</fieldset>
+
+				<fieldset>
+					<legend>Text</legend>
+
+					<input type="text" id="text1" name="text" value="" placeholder="text">
+					<input type="text" id="text2" name="text" value="" placeholder="text (disabled)" disabled>
+					<input type="text" id="text3" name="text" value="" placeholder="text (readonly)" readonly>
+
+					<br>
+
+					<label for="password">password</label>
+					<input type="password" name="password" id="password" value="">
+
+					<br>
+
+					<label for="city">text with <code>&lt;datalist&gt;</code> element.</label>
+					<input type="text" id="city" name="city" list="cityname">
+					<datalist id="cityname">
+						<option value="Boston">
+						<option value="Cambridge">
+					</datalist>
+
+					<br>
+
+					<label for="textarea">textarea</label><br>
+					<textarea id="textarea" name="textarea" cols="50" rows="5">textarea</textarea>
+				</fieldset>
+
+				<fieldset>
+					<legend>Inputs HTML5</legend>
+
+					<input type="color" id="input_color" name="input_color" value="">
+					<input type="date" id="input_date" name="input_date" value="">
+					<input type="datetime-local" id="input_datetime-local" name="input_datetime-local" value="">
+					<input type="email" id="input_email" name="input_email" value="">
+					<input type="number" id="input_number" name="input_number" value="">
+					<input type="range" id="input_range" name="input_range" value="">
+					<input type="search" id="input_search" name="input_search" value="">
+					<input type="tel" id="input_tel" name="input_tel" value="">
+					<input type="time" id="input_time" name="input_time" value="">
+					<input type="url" id="input_url" name="input_url" value="">
+					<input type="month" id="input_month" name="input_month" value="">
+					<input type="week" id="input_week" name="input_week" value="">
+				</fieldset>
+
+				<fieldset>
+					<legend>Other</legend>
+
+					<label for="select1">Select with optgroup</label>
+					<select id="select1" name="select1">
+						<optgroup label="general">
+							<option value="red">white</option>
+							<option value="black">black</option>
+						</optgroup>
+						<option value="red">red</option>
+						<option value="green">green</option>
+						<option value="blue">blue</option>
+					</select>
+
+					<br>
+
+					<label for="select2">Multiply select with optgroup</label>
+					<select id="select2" name="select2" multiple="multiple">
+						<optgroup label="general">
+							<option value="red">white</option>
+							<option value="black">black</option>
+						</optgroup>
+						<option value="red">red</option>
+						<option value="green">green</option>
+						<option value="blue">blue</option>
+					</select>
+
+					<br>
+
+					<label for="checkbox1">checkbox1</label>
+					<input type="checkbox" id="checkbox1" name="checkbox1">
+
+					<br>
+
+					<label for="file">file</label>
+					<input type="file" id="file" name="file">
+
+					<br>
+
+					<button>Button</button>
+					<button disabled="disabled">Button (disabled)</button>
+
+					<input type="hidden" id="hidden" name="hidden" value="hidden">
+					<input type="image" id="image" name="image" src="./dummy.png" alt="image">
+					<input type="reset" id="reset" name="reset" value="Reset">
+					<input type="button" id="button" name="button" value="Input button">
+					<input type="submit" id="submit" name="submit" value="Submit">
+				</fieldset>
+			</form>
+		</section>
+
+		<hr>
+
+		<section>
+			<header>
+				<h2>Other</h2>
+			</header>
+
+			<img src="./dummy.png" alt="" usemap="#Map">
+			<map name="Map">
+				<area shape="rect" coords="20,10,50,120" href="#" alt="Area 1" title="Area 1">
+				<area shape="rect" coords="60,10,80,120" href="#" alt="Area 2" title="Area 2">
+				<area shape="rect" coords="100,10,130,120" href="#" alt="Area 3" title="Area 3">
+			</map>
+
+			<p>
+				<code>&lt;audio&gt;</code> element.<br>
+				<audio controls="controls">
+					<source src="#" type="audio/mpeg">
+					Audio is not supported by your browser.
+					<a href="#" title="Download">You can download track</a>.
+				</audio>
+			</p>
+
+			<p>
+				<code>&lt;video&gt;</code> element.<br>
+				<video controls="controls">
+					<source src="#" type="audio/mpeg">
+					Video is not supported by your browser.
+					<a href="#" title="Download">You can download track</a>.
+				</video>
+			</p>
+
+			<p>
+				<code>&lt;canvas&gt;</code> element.<br>
+				<canvas id="myCanvas">Canvas is not supported by your browser.</canvas>
+			</p>
+
+			<p>
+				<code>&lt;object&gt;</code> element whith <code>&lt;param&gt;</code>.<br>
+				<object width="500" height="200" data="#">
+					<param name="bgcolor" value="#ccc">
+				</object>
+			</p>
+
+			<p>
+				<code>&lt;embed&gt;</code> element.<br>
+				<embed width="500" height="200" src="#">
+			</p>
+
+			<p>
+				<code>&lt;meter&gt;</code> element.<br>
+				<meter value="0" min="0" max="100" low="10" high="60">Low</meter>
+				<meter value="30" min="0" max="100" low="10" high="60">Normal</meter>
+				<meter value="80" min="0" max="100" low="10" high="60">Hot</meter>
+				<meter value="100" min="0" max="100" low="10" high="60">Boiling</meter>
+			</p>
+
+			<p>
+				<code>&lt;progress&gt;</code> element.<br>
+				<progress max="100" value="50">Loading...</progress>
+			</p>
+
+			<p>
+				<code>&lt;iframe&gt;</code> element.<br>
+				<iframe src="#" width="600" height="300">
+					Iframe is not supported by your browser.
+				</iframe>
+			</p>
+		</section>
+	</main>
+</body>
+</html>

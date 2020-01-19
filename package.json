@@ -1,0 +1,15 @@
+{
+  "name": "@skutin/normalize.css",
+  "version": "1.0.0",
+  "description": "Modern light-weight normalize.css without typography styling.",
+  "author": "Alex Skutin <mail@skutin.pro> [https://skutin.pro/]",
+  "license": "CC0-1.0",
+  "repository": "skutin/normalize.css",
+  "homepage": "https://github.com/skutin/normalize.css",
+  "main": "normalize.css",
+  "style": "normalize.css",
+  "files": [
+    "demo.html",
+    "normalize.css"
+  ]
+}
