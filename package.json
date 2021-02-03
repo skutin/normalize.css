@@ -1,7 +1,7 @@
 {
   "name": "@incore/normalize.css",
-  "version": "1.0.0",
-  "description": "Modern light-weight normalize.css without typography styling.",
+  "version": "2.0.0",
+  "description": "Minimalist normalize.css without custom styling, only necessary cross-browser consistency and bug fixes.",
   "author": "Alex Skutin <mail@skutin.pro> [https://skutin.pro/]",
   "license": "CC0-1.0",
   "repository": "skutin/normalize.css",
