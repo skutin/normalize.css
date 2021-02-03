@@ -6,3 +6,11 @@ Useful as style system base.
 - Preserve browser defaults - no custom styling
 - Normalize only necessary styles
 - Correct bugs and common browser inconsistencies
+
+## Installation
+
+**NPM**
+
+```sh
+npm install --save @incore/normalize.css
+```
